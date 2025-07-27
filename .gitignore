@@ -1,0 +1,108 @@
+# Sensitive Files and Directories
+.env
+*.env
+.env.*
+secrets.txt
+keys.txt
+tokens.txt
+
+# API Keys and Credentials
+*api_key*
+*token*
+*secret*
+*password*
+*credential*
+
+# Personal and Institutional Data
+*mbiswas*
+*ouzuner*
+*/scratch/*
+*/projects/*
+
+# Large Data Directories
+/data/
+/cache/
+/scratch/
+/output/
+/results/
+/datasets/
+/models/
+Dataset/Raw/*/
+!Dataset/Raw/*/.gitkeep
+
+# Model Files and Caches
+*.bin
+*.pt
+*.pth
+*.safetensors
+__pycache__/
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Generated Outputs
+*.log
+*.out
+*.err
+results/
+outputs/
+figures/
+plots/
+
+# Development Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+activate
+activate.*
+deactivate
+
+# Large Files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.pkl
+*.pickle
+*.joblib
+
+# Temporary Files
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.backup
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Process Documentation (not needed for public release)
+ANONYMIZATION_VERIFICATION.md
+INTEGRATION_SUMMARY.md
+
+# Keep essential documentation only
+!README.md
+!WORKFLOW_GUIDE.md
+!config.py
+!env.template 

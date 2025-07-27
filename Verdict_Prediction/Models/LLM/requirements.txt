@@ -1,0 +1,8 @@
+transformers>=4.34.0
+accelerate>=0.24.0
+torch>=2.0.0
+sentencepiece
+scipy
+numpy
+tqdm
+python-dotenv
